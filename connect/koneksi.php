@@ -3,9 +3,9 @@
 require_once "parser-php-version.php";
 
 $servername	= "localhost";
-$username	= "ponp5628_root";
-$password	= "darulilmi123";
-$database	= "ponp5628_bell";
+$username	= "";
+$password	= "";
+$database	= "";
 
 $conn = mysqli_connect($servername, $username, $password, $database) or die(mysqli_connect_error($link));
 
